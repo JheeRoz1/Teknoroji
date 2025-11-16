@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="google-site-verification" content="CpKJMFHEZsDXiCp6qQOvPbxVsOtuWb_WoHeTIxRBxU8" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEKNOROJI</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Custom Styling & Modal -->
+  <style>
+    /* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding-top: 60px;
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    /* ✅ Added spacing improvements */
+    .new-product .section-title {
+      margin-bottom: 60px; /* Jarak antara judul dan kartu lebih lega */
+      text-align: center;
+    }
+
+    .product-list {
+      margin-top: 20px; /* Sedikit ruang tambahan di atas kumpulan kartu */
+    }
+
+    .product-item {
+      margin-bottom: 30px; /* Jarak antar kartu */
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="images/logo.png" width="40" height="40">
+      <div class="header-right">
+        <div class="header-nav-wrapper">
+          <button class="navbar-toggle-btn" data-navbar-toggle-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+              <li><a href="index.html" class="navbar-link" style="margin-right: 80px;">Home</a></li>
+              <li><a href="Kontak.html" class="navbar-link" style="margin-right: 80px;">Kontak</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <article>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Solusi Digital Terpercaya untuk Tugas Akademik & Pengembangan Website <span>Profesional</span></h1>
+            <p class="hero-text">Teknoroji menghadirkan layanan akademik dan digital dengan standar tinggi — mulai dari pendampingan tugas kuliah, hingga pembuatan website yang elegan dan fungsional.</p>
+            <div class="btn-group">
+              <a href="https://wa.me/+6287788562657?text=Saya ingin%20order%20jasa%20joki%20nya%20ka😊"><button class="btn btn-primary">WhatsApp 1</button></a>
+              <a href="https://portfolio-wheat-alpha-svphr66iwk.vercel.app/"><button class="btn btn-secondary">Lihat Portofolio</button></a>
+            </div>
+          </div>
+          <figure class="hero-banner">
+            <img src="images/logo.png" alt="nft art" style="width:500px; height:auto;">
+          </figure>
+        </div>
+      </section>
+
+      <!-- New Product Section -->
+      <section class="about">
+  <div class="container">
+
+    <!-- Garis pembatas di atas judul -->
+    <hr style="width: 1200px; height: 5px; background-color: #FFD43B; border: none; margin: 0 auto 60px auto; border-radius: 10px;">
+
+    <h2 class="h2 about-title">Pilih Layanan Sesuai Kebutuhan Anda</h2>
+
+
+          <ul class="product-list">
+            
+            <!-- Product 1 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/uts.png" alt="Jasa Joki UTS / UAS">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20jasa%20joki%20uts%20atau%20uas%20nya%20kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Jasa Joki UTS / UAS</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid">Information Jasa Details</p>
+                    <button class="tag" onclick="openModal('modal1')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 2 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/ta.png" alt="Jasa Joki Tugas Akademik">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20jasa%20joki%20tugas%20akademik nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Jasa Joki Tugas Akademik</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid">Information Jasa Details</p>
+                    <button class="tag" onclick="openModal('modal2')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 3 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/s.png" alt="Jasa Joki Skripsi">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20jasa%20joki%20skripsi%20nya%20kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Jasa Joki Skripsi</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid">Information Jasa Details</p>
+                    <button class="tag" onclick="openModal('modal3')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <!-- Product 4 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/ppt.png" alt="Template">
+                  <div class="product-actions right">
+                  </div>
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20ppt atau makalah nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Jasa Joki PPT dan Makalah</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid">Information Jasa Details</p>
+                    <button class="tag" onclick="openModal('modal4')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Product 5 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/figma.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20templates figma nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">115+ Template Mobile App</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">UI Kit Figma</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 75.000</p>
+                    <button class="tag" onclick="openModal('modal5')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 6 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/html.png" alt="Templates">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20170+ templates%20html%20nya%20 kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">170+ Template Website</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">HTML,CSS,JS</p></div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 93.000</p>
+                    <button class="tag" onclick="openModal('modal6')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 7 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/css.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%2050+ template premium nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">50+ Premium Template</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">HTML,CSS,JS</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 75.000</p>
+                    <button class="tag" onclick="openModal('modal7')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 8 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/laravel.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20templates laravel nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">80+ Template Website + DB</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">Laravel 11</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 130.000</p>
+                    <button class="tag" onclick="openModal('modal8')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 9 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/ecom.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%204+ template ecommerce nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">4+ Template Website E-Commerce</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">Laravel</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 47.000</p>
+                    <button class="tag" onclick="openModal('modal9')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 10 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/pb.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20website personal branding nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Template Website Personal Branding & Portfolio</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">HTML,CSS,JS</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 15.000</p>
+                    <button class="tag" onclick="openModal('modal10')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 11 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/mp.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20website multipage nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Template Website MultiPage - Desain </a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">HTML,CSS,JS</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 18.000</p>
+                    <button class="tag" onclick="openModal('modal11')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 12 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/ui.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20website UI/UX Figma nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Template Website Freelancer x UI/UX Figma </a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">HTML,CSS,JS</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 32.000</p>
+                    <button class="tag" onclick="openModal('modal12')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 13 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/travel.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20website travel nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Template Web Travel Responsif Profesional</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">HTML,CSS,JS</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 15.000</p>
+                    <button class="tag" onclick="openModal('modal13')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+             <!-- Product 14 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/hc.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20website health care nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Template Website E-Commerce & Health Care</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">HTML,CSS,JS</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 18.000</p>
+                    <button class="tag" onclick="openModal('modal14')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 15 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/qr.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20website absensi karyawan nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Template Aplikasi Absensi Karyawan QR Code</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">Laravel</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 65.000</p>
+                    <button class="tag" onclick="openModal('modal15')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Product 16 -->
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+                <figure class="product-banner">
+                  <img src="images/cms.png" alt="Template">
+                  <a href="https://wa.me/+6287788562657?text=Saya mau%20order%20website portfolio berbasis CMS nya kk😊"><button class="place-bid-btn">Order</button></a>
+                </figure>
+                <div class="product-content">
+                  <a href="#" class="h4 product-title">Web Portfolio Berbasis CMS || Laravel</a>
+                  <div class="product-meta">
+                    <div class="product-author">
+                      <figure class="author-img">
+                        <img src="images/logo.png" width="50" height="50" alt="Teknoroji">
+                      </figure>
+                      <div class="author-content">
+                        <h4 class="h5 author-title">Teknoroji <img src="Terverivikasi_websites/web tetverivikasi.svg" width="20" height="20" /></h4>
+                      </div>
+                      <div class="product-price"> <data value="0.568">Siap Pakai</data> <p class="label">Laravel</p> </div>
+                    </div>
+                  </div>
+                  <div class="product-footer">
+                    <p class="total-bid" style="font-weight: bold; font-size: 1.1rem;">Rp. 35.000</p>
+                    <button class="tag" onclick="openModal('modal16')">Info</button>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+ <!-- Modal 1 -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h2>Informasi Jasa Joki UTS / UAS</h2>
+    <p>Kesulitan menghadapi UTS atau UAS? 🎓 Kami siap membantu Anda menaklukkan setiap soal dengan hasil terbaik! Layanan kami menjamin ketepatan waktu, kualitas tinggi, serta menjaga kerahasiaan data Anda sepenuhnya.</p>
+    <p>Harga disesuaikan dengan tingkat kesulitan dan deadline pengerjaan. Hubungi kami melalui WhatsApp untuk mendapatkan estimasi cepat dan penawaran terbaik hari ini! 💬</p>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 2 -->
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h2>Informasi Jasa Joki Tugas Akademik</h2>
+    <p>Butuh bantuan menyelesaikan tugas kuliah atau laporan akademik? 📚 Kami bantu dari riset, penulisan, hingga hasil akhir yang rapi dan profesional — bebas plagiarisme dan sesuai pedoman kampus Anda.</p>
+    <p>Tim kami berpengalaman dalam berbagai bidang, siap membantu dengan cepat dan hasil maksimal. Klik WhatsApp untuk konsultasi gratis sebelum order! 🚀</p>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 3 -->
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal3')">&times;</span>
+    <h2>Informasi Jasa Joki Skripsi</h2>
+    <p>Layanan ini membantu mahasiswa dalam menyusun, merevisi, dan menyempurnakan skripsi sesuai pedoman kampus. Dikerjakan oleh tim berpengalaman di bidang akademik, dengan fokus pada keaslian dan kesesuaian format penulisan.</p>
+    <p>Keunggulan nya apa aja si kak? Pada jasa kita mempunyai keunggulan yang pertama yaitu Konsultasi dan pendampingan hingga tahap akhir bimbingan, Kedua yaitu Mengacu pada teori dan metodologi akademik yang valid, Ketiga yaitu Revisi sesuai masukan dosen pembimbing, Keempat yaitu Hasil bebas plagiarisme (dilengkapi laporan cek turnitin), Kelima yaitu Tepat waktu dan profesional tentunya.</p>
+    <p>SEMUA JURUSAN BISA</p>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 4 -->
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal4')">&times;</span>
+    <h2>Informasi Jasa Joki PPT dan Makalah</h2>
+    <p>Layanan ini menghadirkan solusi profesional bagi mahasiswa dan pelajar yang membutuhkan presentasi PowerPoint serta makalah akademik dengan tampilan elegan dan isi yang berkualitas. Setiap proyek dikerjakan dengan memperhatikan standar penulisan ilmiah, pemilihan kata yang tepat, serta desain yang komunikatif dan modern sehingga mudah dipahami audiens.</p>
+    <p>Dengan pengalaman di bidang akademik dan desain presentasi, tim kami memastikan setiap makalah disusun berdasarkan teori yang relevan dan referensi terkini, sementara slide PowerPoint dibuat selaras dengan isi materi agar tampil lebih meyakinkan. Proses pengerjaan dilakukan dengan cepat, hasil rapi, serta menjaga kerahasiaan dan orisinalitas setiap karya agar sesuai kebutuhan akademik maupun profesional.</p>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+
+<!-- Modal 5 -->
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal5')">&times;</span>
+    <h2>Informasi 115+ Template Mobile App</h2>
+    <p>Mau desain aplikasi mobile tapi nggak mau ribet mulai dari nol? Butuh referensi tampilan profesional untuk tugas, proyek, atau portofolio? Sekarang kamu bisa dapatkan 115+ Template Mobile App UI Kit Figma dengan desain modern, clean, dan siap pakai!</p>
+    <p>🎁 Apa yang Kamu Dapatkan:</p>
+    <li>1. 115+ Template modern & clean</li>
+    <li>2. 100% Full editable di Figma</li>
+    <li>3. Cocok untuk berbagai kategori app</li>
+    <li>4. Solusi hemat waktu untuk designer & developer</li>
+    <li>5. Struktur rapi dan mudah dikustomisasi</li>
+    <p></p>
+    <p>💡 Kenapa Harus Punya Produk Ini?</p>
+    <li>- Hemat waktu tinggal ubah warna, teks, dan ikon sesuai kebutuhan</li>
+    <li>- Desain profesional siap digunakan untuk presentasi atau portofolio</li>
+    <li>- Bisa dijadikan referensi project nyata, bukan sekadar contoh teori</li>
+    <li>- Mendukung pengembangan UI/UX berbagai jenis aplikasi</li>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 6 -->
+<div id="modal6" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal6')">&times;</span>
+    <h2>Informasi 170+ Template HTML,CSS,JS</h2>
+    <p>Dapatkan 170+ template website modern berbasis HTML, CSS, dan JavaScript yang siap pakai untuk segala kebutuhan — dari landing page, portofolio, bisnis, company profile, hingga toko online!</p>
+    <p>💡 Semua template sudah full komponen:</p>
+    <li>🔹 Navbar interaktif & responsive</li>
+    <li>🔹 Hero section modern</li>
+    <li>🔹 Card & grid layout yang elegan</li>
+    <li>🔹 Form dengan validasi</li>
+    <li>🔹 Footer profesional</li>
+    <li>🔹 Animasi smooth & efek hover keren</li>
+    <li>🔹 Mode gelap, tombol CTA, dan banyak variasi layout</li>
+    <p></p>
+    <p>✨ Keunggulan Paket Ini:</p>
+    <li>✅ 100% Responsive — tampilan rapi di HP, tablet, & PC</li>
+    <li>✅ Clean & Reusable Code — gampang dipelajari dan dikembangkan</li>
+    <li>✅ Full Editable — ubah warna, teks, dan gambar sesuai kebutuhan</li>
+    <li>✅ Cocok untuk semua level — baik kamu pemula, mahasiswa, freelancer, atau developer profesional</li>
+    <li>✅ Bisa jadi alat belajar cepat untuk memahami struktur web modern</li>
+    <p>Dengan paket ini, kamu gak cuma dapet template, tapi juga dapet “percepatan” bikin project dan belajar web dev tanpa harus stres mulai dari nol.</p>
+    <li>💼 Tinggal pilih desainnya, ubah konten, dan langsung online!</li>
+    <li>💰 Solusi cepat & hemat buat yang mau hasil profesional dalam hitungan menit!</li>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 7 -->
+<div id="modal7" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal7')">&times;</span>
+    <h2>Informasi 50+ Premium Template</h2>
+    <p>Bangun website impianmu dengan cepat dan mudah!</p>
+    <p>Dalam paket ini kamu akan mendapatkan 50+ template website premium berbasis HTML, CSS, dan JavaScript yang bisa langsung digunakan.</p>
+    <p>💡 Cocok untuk:</p>
+    <li>1. Landing Page.</li>
+    <li>2. E-Commerce & Toko Online.</li>
+    <li>3. Travel & Booking</li>
+    <li>4. Medical & Consulting</li>
+    <li>5. Portfolio & Agency</li>
+    <li>6. Coming Soon / Under Construction Page.</li>
+    <li>7.Serta banyak kategori lainnya.</li>
+    <p></p>
+    <p>✨ Kenapa pilih paket ini?</p>
+    <li>1. Responsive & Mobile Friendly.</li>
+    <li>2. Desain modern & profesional.</li>
+    <li>3. Mudah di-custom sesuai kebutuhan.</li>
+    <li>4.Hemat biaya & waktu pembuatan website.</li>
+    <p></p>
+    <p>📦 Cukup sekali download → langsung punya puluhan template siap pakai untuk berbagai proyek web.</p>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 8 -->
+<div id="modal8" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal8')">&times;</span>
+    <h2>Informasi 80+ Template Website + DB</h2>
+    <p>Nggak punya waktu bikin sistem dari nol? Bangun website profesional tanpa ribet! Koleksi 80+ Template Laravel ini sudah dilengkapi dengan database bawaan, sehingga kamu tinggal install dan running.</p>
+    <p>⚙️ Fitur Unggulan:</p>
+    <li>🚀Template Laravel versi terbaru (Laravel 11)</li>
+    <li>💾 Database sudah disediakan (SQL ready to import)</li>
+    <li>🧱 Struktur folder Laravel rapi dan efisien</li>
+    <li>🔐 Fitur autentikasi siap pakai (Login, Register, Logout)</li>
+    <li>🧭 Dashboard Admin & User siap modifikasi</li>
+    <li>💡 Cocok untuk project bisnis, portofolio, toko online, manajemen data, sistem sekolah, dan lainnya</li>
+    <p></p>
+    <p>👥 Cocok untuk Siapa Saja:</p>
+    <li>- Pelajar SMK/SMA/MA yang ingin belajar Laravel dari dasar</li>
+    <li>- Mahasiswa yang sedang mengerjakan Tugas Akhir atau Skripsi</li>
+    <li>- Guru atau Dosen yang butuh referensi pembelajaran</li>
+    <li>- Freelancer yang ingin mempercepat pengerjaan proyek klien</li>
+    <li>- Developer pemula hingga profesional yang ingin hemat waktu</li>
+    <li>- Instansi atau lembaga pelatihan yang butuh sistem siap ajar</li>
+    <p></p>
+    <p>💡 Kenapa Harus Punya Produk Ini?</p>
+    <li>- Bisa dijadikan bahan tugas akhir, skripsi, atau portofolio</li>
+    <li>- Langsung bisa dijalankan tanpa error konfigurasi</li>
+    <li>- Hemat waktu dan energi tinggal modifikasi sesuai kebutuhan</li>
+    <li>- Bisa dikembangkan jadi sistem komersial</li>
+    <p></p>
+    <p>📌 FAQ:</p>
+    <li>Q: Bagaimana Cara Order & Pengiriman File?</li>
+    <li>A: Kirimkan email aktif anda di WhatsApp, File akan dikirim dalam bentuk link Google Drive via email.</li>
+    <li>Q: Apakah bisa dikembangkan untuk proyek pribadi atau komersial?</li>
+    <li>A: Bisa banget! Semua template bisa dimodifikasi sesuka kamu.</li>
+    <li>Q: PHP versi berapa yang direkomendasikan?</li>
+    <li>A: Minimal PHP 8.2 ke atas untuk performa maksimal.</li>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 9 -->
+<div id="modal9" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal9')">&times;</span>
+    <h2>Informasi 4+ Template Web E-Commerce</h2>
+    <p>📦 Paket Spesial 4 Template E-commerce Laravel, Cocok untuk kamu yang ingin belajar, mengembangkan, atau membuat project e-commerce dengan Laravel. Dalam paket ini sudah tersedia 4 template berbeda yang bisa langsung dipakai atau dikembangkan sesuai kebutuhan.</p>
+    <p>✨ Isi Paket:</p>
+    <li>1. E-commerce Fashion 👕Template e-commerce untuk produk fashion dengan desain modern & clean.</li>
+    <li>2. E-commerce Tumbuhan 🌱Cocok untuk toko tanaman, bibit, atau produk bercocok tanam.</li>
+    <li>3. E-commerce With Midtrans 💳Sudah terintegrasi dengan Midtrans Payment Gateway (checkout & pembayaran online).</li>
+    <li>4. Online Shop Toko Bangunan 🏗️Template untuk penjualan material & perlengkapan bangunan.</li>
+    <p></p>
+    <p>⚡ Fitur Umum:</p>
+    <li>✔ Dibangun dengan Laravel Framework</li>
+    <li>✔ Struktur kode rapi & mudah dikembangkan</li>
+    <li>✔ Desain responsive (bisa diakses dari HP/Laptop)</li>
+    <li>✔ Bisa dijadikan project kuliah, tugas akhir, atau pengembangan bisnis online shop</li>
+    <p></p>
+    <p>📌 Catatan Penting:</p>
+    <li>- Ini adalah source code mentah, bukan final project jadi tidak menerima revisi/perbaikan bug.</li>
+    <li>- Sangat cocok untuk kamu yang ingin belajar & mengembangkan sendiri.</li>
+    <li>- File berbentuk .zip siap diekstrak & dijalankan di local/hosting.</li>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 10 -->
+<div id="modal10" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal10')">&times;</span>
+    <h2>Informasi Website Personal Branding & Portfolio</h2>
+    <p>Tingkatkan citra profesional kamu dengan Template Website Personal Branding bergaya modern, elegan, dan pastinya mobile friendly.</p>
+    <p>Cocok digunakan untuk berbagai kebutuhan:</p>
+    <li>✅ Halaman profil personal dengan perkenalan diri</li>
+    <li>✅ Fitur blog profesional dengan kategori & komentar</li>
+    <li>✅ Event page untuk detail acara, tiket, & kontak</li>
+    <li>✅ Halaman portfolio/achievement untuk menampilkan karya & pencapaian</li>
+    <li>✅ Testimonial & form subscribe untuk bangun audiens</li>
+    <li>✅ Desain Responsive – optimal di laptop maupun smartphone</li>
+    <p></p>
+    <p>📌 File berupa source code mentah (HTML, CSS, JS) – fleksibel untuk dikembangkan sesuai kebutuhan.</p>
+    <p>❗Note: Jika ada error/kesalahan pada kode, tidak termasuk perbaikan karena ini adalah source code mentah, bukan project final.</p>
+    <p>Template ini cocok untuk siapa saja yang ingin membangun personal branding dan portfolio online, seperti:</p>
+    <li>- 👩‍💼 Freelancer (designer, developer, fotografer, videografer, copywriter)</li>
+    <li>- 🎤 Public Speaker, Trainer, Coach</li>
+    <li>- ✍️ Penulis & Publisher</li>
+    <li>- 📸 Content Creator & Influencer</li>
+    <li>- 🎶 Musisi & Seniman yang ingin tampilkan karya & event</li>
+    <li>- 👨‍🎓 Mahasiswa & Fresh Graduate untuk portfolio lamaran kerja</li>
+    <li>- 🏢 Profesional & Pebisnis yang butuh website company profile personal</li>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 11 -->
+<div id="modal11" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal11')">&times;</span>
+    <h2>Informasi Website MultiPage - Desain Profesional & Elegan</h2>
+    <p>Ingin punya website modern tanpa ribet coding dari nol? Template ini adalah jawabannya! Dibuat dengan HTML, CSS, dan JavaScript murni, desain sudah responsive (cocok di laptop, tablet, hingga smartphone).</p>
+    <p>✨ Keunggulan Template ini:</p>
+    <li>✅ Multi Page – Cocok untuk Company Profile, Portofolio, Bisnis, atau Layanan.</li>
+    <li>✅ Desain Profesional & Elegan – Membuat brand Anda terlihat lebih terpercaya.</li>
+    <li>✅ 100% Responsive – Tampil rapi di semua ukuran layar.</li>
+    <li>✅ Mudah Custom – Bisa diubah sesuai kebutuhan hanya dengan edit file HTML & CSS.</li>
+    <li>✅ Fast Loading – Optimasi ringan tanpa framework berat.</li>
+    <li>✅ Full Source Code – Bisa dipelajari juga untuk bahan belajar
+    <p></p>
+    <p>🔥 Sangat cocok untuk:</p>
+    <li>- UMKM yang butuh website cepat & murah.</li>
+    <li>- Freelancer/Developer yang ingin template siap pakai.</li>
+    <li>- Mahasiswa/pemula coding sebagai bahan latihan.</li>
+    <p></p>
+    <p>Jadikan bisnismu tampil lebih profesional & elegan hanya dengan sekali download template ini! 🚀</p>
+
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 12 -->
+<div id="modal12" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal12')">&times;</span>
+    <h2>Informasi Template Website Freelancer x UI/UX Figma</h2>
+    <p>Template website modern berbasis UI/UX Figma dengan implementasi HTML, CSS, dan JavaScript. Cocok digunakan untuk landing page marketplace freelancer atau project portfolio. Produk ini berupa source code (bukan website jadi), sehingga bisa Anda kembangkan dan modifikasi sesuai kebutuhan.</p>
+    <p>📂 Paket yang Anda dapatkan:</p>
+    <li>1. File source code (HTML, CSS, JS).</li>
+    <li>2. File desain Figma (UI/UX).</li>
+    <li>3. Tampilan responsive (Mobile, Tablet, Desktop).</li>
+    <li>4. Struktur clean & mudah dikustomisasi.</li>
+    <p></p>
+    <p>📌 Catatan Penting:</p>
+    <li>1. Produk hanya berupa source code, bukan hosting/domain.</li>
+    <li>2. File akan dikirim dalam format ZIP via Google Drive.</li>
+    <li>3. Pastikan email yang Anda masukkan benar dan sesuai agar link pengiriman tidak salah.</li>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 13 -->
+<div id="modal13" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal13')">&times;</span>
+    <h2>Informasi Template Web Travel Responsif Profesional</h2>
+    <p>Buat website travel impianmu jadi nyata dengan Travelin – Responsive HTML Template 🚀</p>
+    <p>Template ini sangat cocok untuk:</p>
+    <li>✅ Agen Travel & Tour</li>
+    <li>✅ Travel Blogger / Influencer</li>
+    <li>✅ Website Booking Wisata</li>
+    <li>✅ Portofolio atau Blog Perjalanan</li>
+    <p></p>
+    <p>✨ Kenapa pilih Travelin?</p>
+    <li>1. Desain modern & profesional.</li>
+    <li>2. 100% responsive (desktop, tablet, mobile).</li>
+    <li>3. Lengkap dengan halaman: Home, About, Destination, Tour, Blog, Contact, 404 Page dan masih banyak lainnya.</li>
+    <li>4. Mudah dikustomisasi sesuai kebutuhan</li>
+    <li>5. File dikirim via Google Drive (langsung download setelah pembelian)</li>
+    <p></p>
+    <p>🔹 Call To Action </p>
+    <li>💡 Segera miliki Travelin Responsive Template dan buat website travel profesional dengan cepat & mudah</li>
+    <li>👉 Klik Order dan confirm di WhatsApp dapatkan akses langsung ke file via Google Drive!</li>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 14 -->
+<div id="modal14" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal14')">&times;</span>
+    <h2>Informasi Template Website E-Commerce & Health Care</h2>
+    <p>Template website profesional berbasis HTML, CSS, dan JavaScript dengan desain modern, clean, dan responsive di berbagai device (desktop, tablet, dan mobile). Cocok digunakan untuk e-commerce, toko online produk kesehatan, apotek digital, atau kebutuhan serupa.</p>
+    <p>✅ Fitur utama:</p>
+    <li>1. Desain multi device (responsive).</li>
+    <li>2. Tampilan modern & clean.</li>
+    <li>3. Struktur HTML terorganisir.</li>
+    <li>4. Styling dengan CSS yang rapi.</li>
+    <li>5. Interaktivitas dasar dengan JavaScript.</li>
+    <p></p>
+    <p>⚠️ Catatan: Produk ini hanya berupa source code (HTML, CSS, JS), bukan website jadi atau hosting online.</p>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 15 -->
+<div id="modal15" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal15')">&times;</span>
+    <h2>Informasi Template Laravel – Aplikasi Absensi Karyawan dengan QR Code & GPS</h2>
+    <p>Bangun sistem absensi modern dengan mudah menggunakan Template Laravel Aplikasi Absensi Karyawan. Dirancang untuk memudahkan perusahaan dalam mencatat kehadiran karyawan secara real-time menggunakan QR Code dan GPS.</p>
+    <p>🔑 Fitur Utama:</p>
+    <li>✅ Scan Absensi via QR Code & GPS (mobile & desktop ready).</li>
+    <li>✅ Dashboard Admin & Superadmin (versi light & dark mode).</li>
+    <li>✅ Pengajuan Izin & Riwayat Absensi karyawan.</li>
+    <li>✅ Laporan absensi harian, mingguan, dan bulanan.</li>
+    <li>✅ Kelola data karyawan (create, edit, hapus).</li>
+    <li>✅ Export/Import data absensi & karyawan via Excel (XLSX)</li>
+    <li>✅ Tampilan modern & responsive</li>
+    <p></p>
+    <p>💻 Cocok digunakan untuk:</p>
+    <li>- Perusahaan kecil & menengah</li>
+    <li>- Startup yang butuh sistem absensi cepat</li>
+    <li>- Proyek akhir mahasiswa (skripsi / tugas akhir)</li>
+    <li>- Developer yang ingin punya base project absensi siap pakai</li>
+    <p></p>
+    <p>⚠️ Penting!</p>
+    <li>Produk ini berupa source code mentah (raw code).</li>
+    <li>Artinya:</li>
+    <li>- Masih bisa dikembangkan sesuai kebutuhan.</li>
+    <li>- Wajar jika ada bug/error kecil yang perlu disesuaikan.</li>
+    <li>- Direkomendasikan untuk kamu yang paham dasar Laravel & pengembangan web.</li>
+    <p></p>
+    <p>Dengan template ini, kamu bisa langsung punya pondasi sistem absensi karyawan yang profesional tanpa harus koding dari nol 🚀</p>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+</style>
+
+<!-- Modal 16 -->
+<div id="modal16" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal16')">&times;</span>
+    <h2>Informasi Web Portfolio Berbasis CMS</h2>
+    <p>Produk ini dirancang khusus untuk bantu kamu yang ingin belajar ngoding, mengerjakan tugas akhir, skripsi, atau mempercepat project freelance kamu dengan sistem yang sudah siap pakai</p>
+    <p>Apa yang Kamu Dapatkan?</p>
+    <li>✅ Source code Laravel 11 yang rapi dan mudah dimodifikasi.</li>
+    <li>✅ Database MySQL yang sudah terintegrasi.</li>
+    <li>✅ Sistem web application yang bisa langsung dijalankan.</li>
+    <li>✅ Akses file gampang via link Google Drive setelah pembelian.</li>
+    <p></p>
+    <p>Kenapa Kamu Harus Punya Produk Ini?</p>
+    <li>1. Hemat Waktu: Gak perlu lagi bikin sistem dari nol.</li>
+    <li>2. Belajar dari Praktik: Pahami struktud dan alur kerja Laravel 11 lewat contoh nyata.</li>
+    <li>3. Siap Pakai: Semua source code sudah ditest dan siap dioperasikan.</li>
+    <li>4. Fleksibel: Bisa dikembangin buat kebutuhan pribadi atau komersial.</li>
+    <p></p>
+    <p>⚠️ FAQ (Pertanyaan Umum)</p>
+    <li>Q : Apakah source code ini langsung bisa dipakai?</li>
+    <li>A : Ya, semua sistem sudah siap pakai.</li>
+    <li>Q : Bisa gak aku modifikasi source code ini untuk project pribadi atau komersial?</li>
+    <li>A : Bisa banget! Kamu bebas modifikasi dan kembangin setiap kode sesuai dengan kebutuhan kamu.</li>
+    <p></p>
+    <p>Siap mulai projectmu? Beli sekarang</p>
+  </div>
+</div>
+
+<style>
+  /* Tambahkan jarak antar paragraf di dalam modal */
+  .modal-content p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  </style>
+
+  <!-- 
+  - #ABOUT
+-->
+
+<section class="about">
+  <div class="container">
+
+    <!-- Garis pembatas di atas judul -->
+    <hr style="width: 1200px; height: 5px; background-color: #FFD43B; border: none; margin: 0 auto 60px auto; border-radius: 10px;">
+
+    <h2 class="h2 about-title">Tutorial Menggunakan Jasa Joki & Membeli Template Web</h2>
+
+    <ol class="about-list">
+
+      <li class="about-item">
+        <div class="about-card">
+
+          <div class="card-number" style="color:#FFD43B;">01</div>
+
+          <div class="card-icon">
+            <i class="fa-solid fa-book fa-2xl" style="color: #FFD43B;"></i>
+          </div>
+
+          <h3 class="h3 about-card-title">Pilih Jasa / Template</h3>
+
+          <p class="about-card-text">
+            Pilih jenis jasa atau template yang sesuai dengan kebutuhan Anda. Pastikan Anda membaca deskripsi layanan dengan teliti sebelum melanjutkan ke tahap pemesanan untuk mendapatkan hasil yang paling sesuai.
+          </p>
+
+        </div>
+      </li>
+
+      <li class="about-item">
+        <div class="about-card">
+
+          <div class="card-number" style="color:#FFD43B;">02</div>
+
+          <div class="card-icon">
+            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #FFD43B;"></i>
+          </div>
+
+          <h3 class="h3 about-card-title">Hubungi dan Pilih Paket</h3>
+
+          <p class="about-card-text">
+            Setelah Anda menghubungi kami, Anda akan mendapatkan arahan langsung dari admin kami. Selanjutnya, kirimkan tugas atau template yang Anda butuhkan, dan pesanan Anda akan langsung kami proses.
+          </p>
+
+        </div>
+      </li>
+
+      <li class="about-item">
+        <div class="about-card">
+
+          <div class="card-number" style="color:#FFD43B;">03</div>
+
+          <div class="card-icon">
+            <i class="fa-solid fa-check fa-2xl" style="color: #FFD43B;"></i>
+          </div>
+
+          <h3 class="h3 about-card-title">Pengerjaan Cepat</h3>
+
+          <p class="about-card-text">
+            Setelah semua data diterima, Anda hanya perlu menunggu beberapa menit. Hasil akan dikirimkan dengan cepat dan tepat. Jika terdapat kesalahan, harga akan disesuaikan, dan Anda akan mendapatkan satu kali layanan gratis sebagai bentuk tanggung jawab kami.
+          </p>
+
+        </div>
+      </li>
+
+      <li class="about-item">
+        <div class="about-card">
+
+          <div class="card-number" style="color:#FFD43B;">04</div>
+
+          <div class="card-icon">
+            <i class="fa-solid fa-face-smile fa-2xl" style="color: #FFD43B;"></i>
+          </div>
+
+          <h3 class="h3 about-card-title">Beri Penilaian</h3>
+
+          <p class="about-card-text">
+            Setelah pekerjaan selesai, silakan berikan penilaian dan masukan Anda terhadap layanan kami. Ulasan Anda sangat membantu kami dalam meningkatkan kualitas pelayanan agar semakin baik ke depannya.
+          </p>
+
+        </div>
+      </li>
+
+    </ol>
+
+  </div>
+</section>
+
+
+
+    <!-- - #GO TO TOP -->
+     <a href="#top" class="go-top" data-go-top></a>
+     <ion-icon name="arrow-up-outline"></ion-icon>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+  <!-- Custom JS -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Ionicon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Modal Script -->
+  <script>
+    function openModal(modalId) {
+      document.getElementById(modalId).style.display = "block";
+    }
+    function closeModal(modalId) {
+      document.getElementById(modalId).style.display = "none";
+    }
+  </script>
+
+  <!-- ======== FOOTER START ======== -->
+  <hr style="width: 1200px; height: 5px; background-color: #FFD43B; border: none; margin: 0 auto 20px auto; border-radius: 10px;">
+  <footer style="background-color: #0b0b0b; color: #fff; padding: 10px 0; font-family: 'Roboto', sans-serif;">
+  <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px;">
+
+    <!-- Brand Section -->
+    <div style="flex: 1 1 250px; min-width: 250px;">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="images/logo.png" alt="Teknoroji Logo" width="60" height="60" style="border-radius: 50%;">
+        <h2 style="color: #FFD43B; font-weight: 700;">TEKNOROJI</h2>
+      </div>
+      <p style="margin-top: 15px; color: #ccc; line-height: 1.7;">
+        Mewujudkan inovasi akademik dan teknologi web dengan standar profesional dan keunggulan digital.
+      </p>
+      <div style="margin-top: 20px; display: flex; gap: 15px;">
+        <a href="https://www.instagram.com/fahrullroziiii/" style="color: #FFD43B; font-size: 1.3rem;"><i class="fab fa-instagram"></i></a>
+
+      </div>
+    </div>
+
+    <!-- Navigation Section -->
+    <div style="flex: 1 1 150px; min-width: 150px;">
+      <h3 style="color: #FFD43B; margin-bottom: 20px;">Halaman</h3>
+      <ul style="list-style: none; padding: 0; line-height: 2;">
+        <li><a href="index.html" style="color: #ccc; text-decoration: none;">Home</a></li>
+        <li><a href="Kontak.html" style="color: #ccc; text-decoration: none;">Kontak</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div style="flex: 1 1 250px; min-width: 250px;">
+      <h3 style="color: #FFD43B; margin-bottom: 20px;">Kontak</h3>
+      <p style="color: #ccc; line-height: 1.8;">
+      <p style="color: #ccc; margin-top:10px;">
+        <i class="fa-brands fa-whatsapp" style="color:#FFD43B; margin-right:8px;"></i>
+        0857-7781-8634
+      </p>
+      <p style="color: #ccc; margin-top:10px;">
+        <i class="fa-brands fa-whatsapp" style="color:#FFD43B; margin-right:8px;"></i>
+        0877-8856-2657
+      </p>
+    </div>
+
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #FFD43B; margin: 40px auto; width: 85%;">
+
+  <div style="display:flex; justify-content:center; align-items:center; gap:5px; color:#aaa; font-size:1rem;">
+  <span>© 2025</span>
+  <span style="color:#FFD43B;">Teknoroji</span>
+  <span>. All rights reserved.</span>
+</div>
+
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/+6287788562657?text=Halo%20kak,%20saya%20ingin%20konsultasi%20layanan%20Teknoroji" target="_blank"
+    style="position: fixed; bottom: 25px; right: 25px; background-color: #25D366; color: white; display: flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 50px; text-decoration: none; font-weight: 500; box-shadow: 0 4px 15px rgba(0,0,0,0.3); z-index:1000;">
+    <i class="fab fa-whatsapp" style="font-size: 1.4rem;"></i> Chat WhatsApp
+  </a>
+</footer>
+<!-- ======== FOOTER END ======== -->
+
+</body>
+
+</html>
